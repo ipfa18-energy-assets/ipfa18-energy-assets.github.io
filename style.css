@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+body {
+	/*background-color: #242528;*/
+	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/2mhLcvO/digital-grid-background_vj6v8yyk__F0000.png");
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0;
+	background-position: right center;
+	background-color: black;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 10%;
+}
+
+/*#background_wrapper {
+	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/2mhLcvO/digital-grid-background_vj6v8yyk__F0000.png");
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+#pop {
+	/*margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	margin-right: 30%;
+	padding: 1px 100px 10px 30px;*/
+	margin-right: 25%;
+	padding-top: .5px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 10px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	background-color: rgb(0,0,0,.7); /*rgb(0,0,0, .8);*/
+}
+
+h1 {
+	font-size: 50px;
+	color: white;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+button {
+	margin-top: 20px;
+	margin-left: 10px;
+	background-color: #0049bf;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 2px;
+	border-style: none;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+button:focus {
+	outline: 0; /* prevents blue border */
+}
+
+button:active {
+	background-color: #0049ee;
+}
+
